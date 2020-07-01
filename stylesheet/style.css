@@ -199,4 +199,28 @@ ul li a:hover {
 
 ul {
     margin: 0px;
-}                                     
+}     
+
+section#project {
+    background-image: url(../img/latest-work-bg.png);
+    padding: 50px 0px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.project-body h2 {
+    font-size: 38px;
+    text-align: center;
+    color: #353434;
+    padding-bottom: 50px;
+}
+
+.project_iimage {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-column-gap: 35px;
+}
+
+.project_iimage img {
+    width: 100%;
+}                                
